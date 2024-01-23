@@ -16,7 +16,7 @@ size_t _getPortion(int *array, ssize_t min, ssize_t max, size_t size)
 	int temp, ref;
 
 	ref = array[max];
-	
+
 	while (min <= max)
 	{
 		while (array[min] < ref)
